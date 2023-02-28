@@ -1,0 +1,297 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 8, 2023, 10:55:14 PM
+    Author     : Haryono
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #c4d5f7;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+    color: #222;
+    margin: 0 auto;
+}
+
+#wrap {
+    margin: 0 auto;
+    width: 1150px;
+}
+
+#header {
+    height: 130px;
+    margin: 0 auto;
+    width: 1150px;
+    background: rgb(101, 216, 245);
+}
+
+#header h1 {
+    font-size: 28px;
+    letter-spacing: -1px;
+    padding: 15px 0 0 20px;
+    color: rgb(243, 22, 22);
+    text-align: center;
+}
+
+#menu {
+    height: 30px;
+    margin: 0 auto;
+    width: 1150px;
+    line-height: 30px;
+    background: goldenrod;
+}
+
+#menu .btn-add {
+    padding: 2px;
+    font-size: 14px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    width: 50px;
+    height: 15px;
+    background: rgb(44, 41, 236);
+    border-radius: 4px;
+    font-family: "Tahoma";
+    border-radius: 4px; 
+    color: rgb(252, 15, 15);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#menu ul {
+    list-style-type: none;
+    padding-left: 20px
+}
+
+#menu ul li {
+    display: block;
+    float: left;
+    padding-top: 1.5px;
+    padding-bottom: 1px;
+}
+
+#menu ul li a:hover {
+    color: #222;
+    text-decoration: none;
+}
+
+.form-search input{
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid gray;
+    margin-left: 730px;
+    width: 200px;
+    height: 25px;
+    background: #f1f1ff;
+    border-radius: 4px;
+}
+
+.form-search button{
+    width: 100px;
+    height: 25px;
+    background: #2196f3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid gray;
+    border-left: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.form-search button:hover{
+    background: #0b7dda;
+}
+
+/* clear floats */
+.form-search::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.img1 {
+    width: 120px;
+    height: 100px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.img2 {
+    width: 120px;
+    height: 100px;
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+#content {
+    background-color: #c7f9f5;
+    padding: 0 10px;
+}
+
+.center {
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(224, 20, 146);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center th {
+    border-style: solid;
+    border-width: 2px;
+    background: palevioletred;
+    letter-spacing: 1px;
+    padding: 4px 2px 4px 10px;
+    color: #000080;
+    text-align: center;
+    font: 13px "Tahoma", Arial, sans-serif;
+}
+
+.center td {
+    border-style: solid;
+    border-width: 2px;
+    border-right: 1px solid #C1DAD7;
+    border-bottom: 1px solid #C1DAD7;
+    background: #ffffff;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 8px;
+    padding-right: 8px;
+    color: #006400;
+}
+
+.table {
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(86, 114, 8);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.table th {
+    border-style: solid;
+    border-width: 2px;
+    background: rgb(110, 62, 241);
+    letter-spacing: 1px;
+    padding: 4px 2px 4px 10px;
+    color: #f11483;
+    text-align: center;
+    font: 13px "Tahoma", Arial, sans-serif;
+    font-weight: bold;
+}
+
+.table td {
+    border-style: solid;
+    border-width: 2px;
+    border-right: 1px solid #C1DAD7;
+    border-bottom: 1px solid #C1DAD7;
+    background: #ffffff;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 8px;
+    padding-right: 8px;
+    color: #006400;
+}
+
+.table-form {
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(224, 20, 146);
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 60px;
+    text-align: center;
+    background-color: #aaa;
+}
+
+.table-form-input {
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(224, 20, 146);
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    background-color: #508af7;
+}
+
+.table-form-input td {
+    border-style: solid;
+    border-width: 2px;
+    border-right: 1px solid #C1DAD7;
+    border-bottom: 1px solid #C1DAD7;
+    background: #ffffff;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 8px;
+    padding-right: 8px;
+    color: #006400;
+}
+
+.form-control {
+    width: 100%;
+}
+
+.footer {
+    text-align: center;
+    font-size: 11px;
+    color: #aaa;
+    margin-top: 40px;
+    border-top: 1px dotted #aaa;
+    padding-top: 10px;
+}
+
+.footer a {
+    color: blue;
+}
+
+footer a:hover {
+    color: #111;
+}
+
+.btn-success {
+    margin-left: 0;
+    padding: 4px 4px;
+    border-radius: 4px;
+    background: rgb(74, 236, 41);
+    font-size: 12px;
+    color: #ffffff;
+    font-family: "Tahoma";
+    width: 50px;
+    text-decoration: none;
+}
+
+.btn-danger {
+    margin-left: 0;
+    padding: 4px 4px;
+    border-radius: 4px;
+    background: rgb(236, 87, 41);
+    font-size: 12px;
+    color: #ffffff;
+    font-family: "Tahoma";
+    width: 50px;
+    text-decoration: none;
+}
+
+.btn-primary {
+    padding: 4px 4px;
+    border-radius: 8px;
+    background: rgb(74, 236, 41);
+    font-size: 12px;
+    color: #ffffff;
+    font-family: "Tahoma";
+    width: 80px;
+    margin-left: 250px;
+}

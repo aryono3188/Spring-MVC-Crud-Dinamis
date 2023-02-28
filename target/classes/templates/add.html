@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="eng" xmlns:th="http:www/thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" th:href="@{/css/siswa.css}" />
+    <title>Spring MVC Crud Dinamis</title>
+</head>
+
+<body>
+    <!-- awal dari halaman web -->
+    <div id="wrap">
+        <div id="header">
+            <!-- <%--awal header--%> -->
+            <img th:src="@{/image/logo_sms31.png}" class="img1">
+            <img th:src="@{/image/logo_sms31.png}" class="img2">
+            <h1>Belajar Spring Boot</h1>
+            <h1>Model View Controller (MVC)</h1>
+            <h1>CRUD Data Dinamis</h1>
+        </div><!-- <%--akhir dari header--%> -->
+        <div id="menu">
+        <!-- <%--awal dari menu atas --%> -->
+        <ul>
+            <li>
+                <a class="btn btn-add" th:href="@{'/'}">Home</a>
+            </li>
+        </ul>
+    </div><!-- <%-- akhir dari menu atas --%> -->
+    <div id="content">
+        <!-- <%-- awal dari isi content --%> -->
+        <br>
+        <div class="container">
+            <div>
+                <table class="table-form">
+                    <thead>
+                        <td>
+                            <h2>
+                                Add New Siswa
+                            </h2>
+                        </td>
+                    </thead>
+                </table>
+                <form th:object="${siswa}" method="post" th:action="@{/save}">
+                    <table class="table-form-input">
+                        <tr>
+                            <td>
+                                <label>NIS</label>
+                            </td>
+                            <td>
+                                <input type="text" class="form-control" th:field="*{nis}">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label>Nama</label>
+                            </td>
+                            <td>
+                                <input type="text" class="form-control" th:field="*{name}">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label>Kelamin</label>
+                            </td>
+                            <td>
+                                <input type="text" class="form-control" th:field="*{kelamin}">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label>Agama</label>
+                            </td>
+                            <td>
+                                <input type="text" class="form-control" th:field="*{agama}">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label>Tempat Lahir</label>
+                            </td>
+                            <td>
+                                <input type="text" class="form-control" th:field="*{tempat_lahir}">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label>Tanggal Lahir</label>
+                            </td>
+                            <td>
+                                <input type="text" class="form-control" th:field="*{tanggal_lahir}">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label>Alamat</label>
+                            </td>
+                            <td>
+                                <input type="text" class="form-control" th:field="*{alamat}">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label>Telephone</label>
+                            </td>
+                            <td>
+                                <input type="text" class="form-control" th:field="*{telephone}">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label>Password</label>
+                            </td>
+                            <td>
+                                <input type="text" class="form-control" th:field="*{password}">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <p><button class="btn btn-primary" type="submit">Submit</button></p>
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+
+        <div class="footer">
+            <!-- <%--awal dari content footer web --%> -->
+            support by <a href="">Junior Programmer Alumnus Program Study Komputerisasi Akuntansi BSI MARGONDA
+                DEPOK</a>,
+            <a href="">Copyright &copy; 27 February 2023 by Haryono. – All Right Reserved</a>
+            <br>
+            <p id="demo"></p>
+            <script src="" th:src="@{/js/date.js}"></script>
+        </div>
+        <div style="clear:both;">
+        </div>
+    </div>
+    <!-- <%--akhir dari isi content --%> -->
+    </div>
+    <!-- <%--akhir dari halaman web --%> -->
+</body>
+
+</html>
