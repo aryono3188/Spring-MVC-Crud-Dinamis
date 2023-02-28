@@ -43,3 +43,8 @@ Belajar membuat web sederhana crud dinamis menggunakan My sql
 
 6. Delete Data siswa
 
+![16](https://user-images.githubusercontent.com/52363455/221942869-9fc5e9eb-722c-438c-877b-8e955a5e8582.png)
+
+![17](https://user-images.githubusercontent.com/52363455/221942878-04f6b99e-e908-4cd5-abf6-0d4fa10183e6.png)
+
+![18](https://user-images.githubusercontent.com/52363455/221942883-648121b9-cfff-4f9a-9f66-7d40c8509b32.png)
