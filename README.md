@@ -13,8 +13,6 @@ Belajar membuat web sederhana crud dinamis menggunakan My sql
 
 ![4](https://user-images.githubusercontent.com/52363455/221935690-576a1bd8-b28a-48e2-b70f-823442202e73.png)
 
-![5](https://user-images.githubusercontent.com/52363455/221935714-b3cd127f-a0be-4f51-b722-ce322cedb4ca.png)
-
 ![6](https://user-images.githubusercontent.com/52363455/221935729-79cf0bae-e797-4482-95c2-21d2b504e1aa.png)
 
 3. Add Siswa, if cancel add siswa clik button home
