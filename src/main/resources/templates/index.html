@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" th:href="@{/css/siswa.css}" />
+  <title>Spring MVC Crud Dinamis</title>
+</head>
+
+<body>
+  <!-- awal dari halaman web -->
+  <div id="wrap">
+    <div id="header">
+      <!-- <%--awal header--%> -->
+      <img th:src="@{/image/logo_sms31.png}" class="img1">
+      <img th:src="@{/image/logo_sms31.png}" class="img2">
+      <h1>Belajar Spring Boot</h1>
+      <h1>Model View Controller (MVC)</h1>
+      <h1>CRUD Data Dinamis</h1>
+    </div><!-- <%--akhir dari header--%> -->
+    <div id="menu">
+      <!-- <%--awal dari menu atas --%> -->
+      <ul>
+        <li>
+          <a class="btn btn-add" th:href="@{'add'}">Add Siswa</a>
+        </li>
+        <li>
+          <form class="form-search" th:object="${searchForm}" method="post" th:action="@{/search}">
+            <input type="search" placeholder="Search" aria-label="Search" th:field="*{keyword}">
+            <button type="submit">Search</button>
+          </form>
+        </li>
+      </ul>
+    </div><!-- <%-- akhir dari menu atas --%> -->
+    <div id="content">
+      <!-- <%-- awal dari isi content --%> -->
+      <br>
+      <div class="container">
+        <table class="table">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Nis</th>
+              <th>Nama</th>
+              <th>Kelamin</th>
+              <th>Agama</th>
+              <th>Tempat Lahir</th>
+              <th>Tanggal Lahir</th>
+              <th>Alamat</th>
+              <th>Telephone</th>
+              <th>Password</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr th:each="Siswa : ${siswa}">
+              <td th:text="${Siswa.id}"></td>
+              <td th:text="${Siswa.nis}"></td>
+              <td th:text="${Siswa.name}"></td>
+              <td th:text="${Siswa.kelamin}"></td>
+              <td th:text="${Siswa.agama}"></td>
+              <td th:text="${Siswa.tempat_lahir}"></td>
+              <td th:text="${Siswa.tanggal_lahir}"></td>
+              <td th:text="${Siswa.alamat}"></td>
+              <td th:text="${Siswa.telephone}"></td>
+              <td th:text="${Siswa.password}"></td>
+              <td>
+                <a class="btn btn-success" th:href="@{'/edit/'+ ${Siswa.id}}">Edit</a>
+                <a class="btn btn-danger" th:href="@{'/delete/'+ ${Siswa.id}}">Delete</a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="footer">
+        <!-- <%--awal dari content footer web --%> -->
+        support by <a href="">Junior Programmer Alumnus Program Study Komputerisasi Akuntansi BSI MARGONDA
+          DEPOK</a>,
+        <a href="">Copyright &copy; 27 February 2023 by Haryono. – All Right Reserved</a>
+        <br>
+        <p id="demo"></p>
+        <script src="" th:src="@{/js/date.js}"></script>
+      </div>
+      <div style="clear:both;">
+      </div>
+    </div>
+    <!-- <%--akhir dari isi content --%> -->
+  </div>
+  <!-- <%--akhir dari halaman web --%> -->
+</body>
+
+</html>
