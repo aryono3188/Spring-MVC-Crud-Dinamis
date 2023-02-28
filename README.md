@@ -11,11 +11,14 @@ Belajar membuat web sederhana crud dinamis menggunakan My sql
 
 2. Insert Table siswa di Data Base sekolah
 
-![4](https://user-images.githubusercontent.com/52363455/221921046-8a0f1ca0-2cea-4ede-93b1-66d10344f064.png)
 
-![5](https://user-images.githubusercontent.com/52363455/221921157-96764e2b-590f-4071-afe7-847fe244dd4b.png)
+![4](https://user-images.githubusercontent.com/52363455/221935690-576a1bd8-b28a-48e2-b70f-823442202e73.png)
 
-![6](https://user-images.githubusercontent.com/52363455/221921629-98801686-8722-4ac4-8d07-86f49c11a366.png)
+
+![5](https://user-images.githubusercontent.com/52363455/221935714-b3cd127f-a0be-4f51-b722-ce322cedb4ca.png)
+
+
+![6](https://user-images.githubusercontent.com/52363455/221935729-79cf0bae-e797-4482-95c2-21d2b504e1aa.png)
 
 3. Add Siswa, if cancel add siswa clik button home
 
