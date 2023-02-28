@@ -26,3 +26,20 @@ Belajar membuat web sederhana crud dinamis menggunakan My sql
 ![9](https://user-images.githubusercontent.com/52363455/221938534-ab14f25b-b162-46a4-9bf3-eab4fcf8619b.png)
 
 4. Edit Siswa
+
+![10](https://user-images.githubusercontent.com/52363455/221940196-ece102f2-b60f-43ab-b01a-f41e90a6c3ec.png)
+
+![11](https://user-images.githubusercontent.com/52363455/221940215-3da04abc-dd57-47c9-9393-d8c467834bc0.png)
+
+![12](https://user-images.githubusercontent.com/52363455/221940225-0e9b40b2-9499-45f0-b7ea-b23269478dc5.png)
+
+5. Search Data siswa
+
+![13](https://user-images.githubusercontent.com/52363455/221941421-06172003-e293-4c16-a97f-2f1e0ffa7962.png)
+
+![14](https://user-images.githubusercontent.com/52363455/221941434-141c999c-20a9-4cae-951b-e36e8964bef0.png)
+
+![15](https://user-images.githubusercontent.com/52363455/221941444-be0f5fb5-4f77-4689-8f57-1adf0c6b976c.png)
+
+6. Delete Data siswa
+
