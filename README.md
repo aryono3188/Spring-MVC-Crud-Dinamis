@@ -9,7 +9,7 @@ Belajar membuat web sederhana crud dinamis menggunakan My sql
 
 ![3](https://user-images.githubusercontent.com/52363455/221920794-9ef63644-f9f0-4a5d-b9b1-ca101a221f33.png)
 
-2. Insert Table di Data Base sekolah
+2. Insert Table siswa di Data Base sekolah
 
 ![4](https://user-images.githubusercontent.com/52363455/221921046-8a0f1ca0-2cea-4ede-93b1-66d10344f064.png)
 
@@ -24,3 +24,5 @@ Belajar membuat web sederhana crud dinamis menggunakan My sql
 ![8](https://user-images.githubusercontent.com/52363455/221922183-d31547e5-a415-4e58-b271-31c9b1489a87.png)
 
 ![9](https://user-images.githubusercontent.com/52363455/221922304-28aeb97c-8802-4e36-b707-96fd080c6af0.png)
+
+4. Edit Siswa
